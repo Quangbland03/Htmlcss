@@ -1,0 +1,48 @@
+.chung .same .chungok .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.chung .same .chungok  .image-container img {
+     width: 208px; 
+     height: 117px;				
+}
+.chung .same .chungok  {
+     display: inline-block;
+     margin-left: 15px;
+}
+
+.chung .same .chungok .image-text {
+    position: absolute;
+    bottom: 1%;
+    left: -0.00000001%;	
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: aqua;
+    width: 40px;
+    height: 24px;
+    text-align: center;
+    margin-top: 30px;     
+}
+.chung .same .chungok p{margin-top: 0;}
+.chung .same .chungok p:hover{color: blue;}
+.chung .navigation{
+    width: 262px;
+    height: 808px;
+    border: 2px solid gray;
+}
+.chung .navigation a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.chung .navigation a:hover{
+    color: rgb(65, 179, 179);
+
+}
+.chung {
+    display: flex;
+}

@@ -1,0 +1,263 @@
+.tongthe{
+    display: flex;
+}
+/* .product li{
+    flex-basis: 55%;
+} */
+
+.tongthe .tongcon ul{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+.tongthe .tongcon ul li{
+    list-style: none;
+
+}
+.product-info a{
+    text-decoration: none;
+    color: rgb(22, 22, 130);
+    font-weight: bold;
+
+}
+.product-info a:hover{
+    color: rgb(144, 228, 228);
+
+}
+.buy{
+    border-radius: 7px;
+    background-color: rgb(221, 226, 244);
+}
+.buy:hover{
+    background-color: rgb(193, 109, 78);
+}
+.product-price{
+    font-weight: bold;
+    color: orangered;
+}
+.tongthe .tongcon {
+    width: 1042px;
+
+}
+.tongthe .tongcon ul{
+    display: inline-block;
+}
+.cart{
+    width: 205px;
+    height: auto;
+    border: 5px solid rgb(217, 153, 129);
+    border-radius: 10px;
+   
+}
+.product__item-img img{
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid rgb(110, 214, 210);
+}
+.cart .name {
+    padding: 20px;
+    height: 40px;
+    
+}
+.cart .buy{
+    display: none;
+}
+.cart .remove{
+    display: inline-block!important;
+}
+.remove{
+    display: none;
+}
+*{
+    margin: 0; 
+    padding: 0;
+ }
+ /*css of header*/
+ body{
+     margin: 0 auto;
+     width: 1263px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .topheader{
+     width: 1263px;
+     height: 35px;
+     background-color: #ed9f8e;
+ }
+ .topheader div{
+     float: right;
+     line-height: 35px;
+ }
+ .topheader div a{
+     text-decoration: none;
+     font-weight: bold;
+     padding: 8px;
+     color: rgb(32, 17, 105);
+     margin: 0 10px;
+ }
+ .topheader div a:hover .tong{
+     background-color: aqua;
+     display: block;
+ }
+ .topheader div i{
+     font-weight: bold;
+     padding: 8px;
+     color: rgb(128, 7, 71);
+ }
+
+ header{
+     background-color: #197cd8;
+     width: 1263px;
+     height: 106px;  
+     position: relative; 
+   
+ }
+ header .logo{
+    position: absolute;
+     margin-left: 61px;
+     margin-top: 27px;
+
+ }
+ header nav ul li{
+ float: right;
+ list-style: none;
+ line-height: 106px;
+ box-sizing: border-box;
+ }
+ header nav {
+    margin-right: 25px;
+    margin-top: 0;
+ }
+ header nav ul li a{
+ text-decoration: none;
+ font-size: 16px;
+color: white;
+text-transform: uppercase;
+padding: 43px 13px;
+font-weight: bold;
+box-sizing: border-box;
+ }
+ header nav ul li .home{
+    background-color: #195fa1;
+ }
+header nav ul li a:hover{
+    
+    background-color: #0a5aa4;
+    transition: 0.2s;
+}
+  /*css of search*/ .search #buttonsearch{
+    width: 1230px;
+    margin-left: 0;
+    height: 20px;
+    margin-right: 10px;
+}
+ /*css of slider*/
+ .slide a img{
+    width: 1263px;
+    height: auto;
+} .slide {
+    
+    text-align: center;
+}
+/*css of h1*/ .tagh1{
+    text-align: center;
+    color: #e95a24;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+.menunav{
+    width: 190px;
+    height: 190px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 29.5px;
+}
+.menunav:hover{
+    border: 1px solid rgb(56, 172, 157);
+    
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgb(208, 241, 242);
+    
+   
+}
+.menunav div a img{
+    height: 100px;
+    width: 160px;
+    text-align: center;
+    
+}
+.menunav .containtwo{
+    text-align: center;
+    margin-top: 15px;
+
+}
+  /*css of footer*/
+ .firstfooter{
+    width: 100%;
+    height: 486px;
+    background-color: #d0d4d4;
+    margin-top: 15px;
+    display: flex;
+  }
+ .firstfooter .footerimage img{
+    width: 751px;
+    height: 437px;
+    margin: 39px 0 0 64px;
+   
+  }
+ .firstfooter .footercontent{
+    width: 367px;
+    height:auto;
+    margin: 39px 0 0 30px;
+    
+   
+  }
+  /*css of footer2*/
+ .secondfooter{
+    width: 1263px;
+    height: 324px;
+    background-color: #282828;
+    margin-top: 40px;
+    display: flex;
+    color: white;
+  }
+ .secondfooter .one{
+    width: 219px;
+    height: auto;
+    margin-left: 62px;
+    margin-top: 36px;
+  }
+ .secondfooter .two{
+    width: 223px;
+    height: auto;
+    margin-top: 36px;
+    margin-left: 187px;
+  }
+ .secondfooter .two :hover{
+    color: #e35c3e;
+    transition: 0.3s;
+  }
+ .secondfooter .three{
+    width: 365px;
+    height: 255px;
+    background-color:#383838 ;
+    margin-top: 36px;
+    margin-left: 180px;
+  }
+ .secondfooter a{
+    text-decoration: none;
+    color: white;
+  }
+ .secondfooter .three span{
+    font-size: 22px;
+  }
+ div .cncdong:hover{
+    color: aqua; 
+}
+ div .cncdong{
+    color:
+     gray; 
+}
